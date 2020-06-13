@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROJETO CORES</title></br>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>DESAFIO DAS CORES</h1>
+    <form action="">
+      <p>
+        <label class="vermelho">(R) VERMELHO<input id='range_r' type='range' min='0' max='255' step='1' value="50"><input id="box_r" type="text" placeholder='125' disabled></label>
+      </p>
+      <p>
+        <label class="verde">(G)..........VERDE <input id='range_g' type='range' min='0' max='255' step='1' value="100"><input id="box_g" type="text" placeholder='125' disabled></label>
+      </p>
+      <p>
+        <label class="azul">(B).............AZUL <input id="range_b" type='range' min='0' max='255' step='1'value="150"><input id="box_b" type="text" placeholder='125' disabled></label>
+      </p>
+  </form>
+
+  <div><canvas id="circle" width="320" height="250"></canvas></div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
